@@ -1,0 +1,86 @@
+#appForm
+  padding: 20px
+  width: 510px
+  height: 385px
+  background-color: #fff
+  float: right
+  position: relative
+  top: 50px
+  box-shadow: 0 0 32px #cbcbcb
+  text-align: center
+
+  > h1
+    text-align: center
+
+  > h2
+    text-align: center
+
+#appFormContent
+  position: relative
+  top: -5px
+
+  .formRow
+    > input
+      width: 211px
+      border: 2px solid #444
+      font-family: $font1
+      font-size: 14px
+
+    > input[type=button], input[type=reset]
+      text-transform: capitalize
+
+    > input::placeholder
+      color: #cbcbcb
+      text-transform: capitalize
+
+    > select
+      width: 235px
+      text-transform: capitalize
+      border: 2px solid #444
+      font-family: $font1
+      font-size: 14px
+
+    > #faSubmit
+      border: none
+      padding: 10px
+      width: 480px
+      margin-top: 20px
+      outline: none
+      background-color: $darkG
+      font-weight: bold
+      color: #fff
+      cursor: pointer
+      border: 2px solid $darkG
+
+    > #faReset
+      outline: none
+      font-weight: bold
+      padding: 10px
+      margin-top: 10px
+      border: none
+      float: right
+      position: relative
+      right: 16px
+      width: 235px
+      color: $fontBlack
+      cursor: pointer
+      border: 2px solid #ddd
+
+.formMarginLeft
+  margin-left: 10px
+
+.formStyle
+  margin-top: 20px
+  position: relative
+  left: 14px
+  border: none
+  outline: none
+  padding: 10px
+  font-size: 16px
+  float: left
+  background-color: #454545
+  color: #cbcbcb
+
+#appointmentError
+  display: inline-block
+  margin-top: 10px

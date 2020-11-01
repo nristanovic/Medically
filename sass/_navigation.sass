@@ -1,0 +1,91 @@
+#navigation
+  width: 1024px
+  background-color: $darkG
+  height: 50px
+  margin: auto
+
+  > ul
+    list-style: none
+    position: relative
+    left: 16px
+
+    > li
+      float: left
+      height: 50px
+
+      > ul
+        display: none
+        list-style: none
+        position: relative
+        left: 16px
+        top: -2px
+        background-color: $darkG
+
+        > li
+          height: 50px
+
+          > a
+            text-decoration: none
+            text-transform: uppercase
+            font-size: 14px
+            font-family: $primaryFont
+            font-weight: bold
+            color: #fff
+            line-height: 50px
+            vertical-align: middle
+            padding: 16px 25px 16px 25px
+
+          > .activePage
+            width: 30px
+
+      > a
+        text-decoration: none
+        text-transform: uppercase
+        font-size: 14px
+        font-family: $primaryFont
+        font-weight: bold
+        padding: 16px 25px 16px 25px
+        color: #fff
+        line-height: 50px
+        vertical-align: middle
+
+      > .activePage
+        width: 30px
+
+  > #search
+    float: right
+    position: relative
+    padding: 4px
+    top: 12px
+    outline: none
+    border: none
+    height: 18px
+    margin-right: 9px
+    display: none
+
+  > #search::placeholder
+    text-transform: capitalize
+    color: #444
+
+  > i
+    font-size: 14px
+    color: #fff
+    line-height: 50px
+    vertical-align: middle
+    float: right
+    padding: 0 16px 0 16px
+    margin-right: 25px
+    cursor: pointer
+
+.fixed
+  position: fixed
+  top: 0px
+  z-index: 9999
+
+.border
+  position: relative
+  top: -16px
+  left: 25px
+  height: 2px
+  width: 0
+  background-color: #fff

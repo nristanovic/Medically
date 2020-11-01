@@ -1,0 +1,54 @@
+#hcBoxes
+  width: 1024px
+  height: 200px
+  position: relative
+  top: 470px
+
+.hcBox
+  width: 320px
+  height: 180px
+  background-color: #a1a1a1
+  float: left
+  margin-left: 32px
+  background: rgba(255, 255, 255, 0.8)
+  border-bottom: 20px solid transparent
+  border-image: linear-gradient(to right, $darkG, $lightG)
+  border-image-slice: 1
+
+  > .hcBoxBG
+    width: 320px
+    height: 180px
+    background-image: linear-gradient(to right, $darkG, $lightG)
+    background-size: 320px 180px
+    background-repeat: no-repeat
+    background-position-y: 178px
+
+    > i
+      position: relative
+      top: 35px
+      left: 30px
+      font-size: 60px
+      color: $fontBlack
+
+    > h1
+      width: 200px
+      text-transform: capitalize
+      font-family: $font2
+      font-weight: normal
+      color: $fontBlack
+      position: relative
+      top: -29px
+      left: 90px
+
+    > p
+      width: 200px
+      font-family: $font2
+      font-weight: normal
+      color: $fontBlack
+      position: relative
+      top: -20px
+      left: 91px
+      text-align: justify
+
+    > .uppercase
+      text-transform: uppercase
